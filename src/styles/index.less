@@ -1,0 +1,125 @@
+
+@theme-color: #185359;
+@color-link: rgba(255, 255, 255, 0.5);
+
+body{
+  h2{
+    margin-top: 0px;
+  }
+  #app{
+    padding: 25px;
+    .sidebar{
+      height: 100%;
+      background-color: @theme-color;
+      ul{
+        padding: 5px 5px;
+        font-size: medium;
+        list-style-type: none;
+        padding: 0px;
+        li{
+          padding: 5px;
+          i{
+            color: @color-link;
+            font-size: 15px;
+            margin: 12px 10px;
+          }
+          a{
+            color: @color-link;
+            cursor: pointer;
+            font-weight: 400;
+            &:hover {
+              color: rgba(255, 255, 255, 0.8) !important;
+            }
+            &:active {
+              color: white !important;
+            }
+          }
+        }
+      }
+
+    }
+    .entire-container{
+      display: flex;
+      .assignment-container{
+        flex: 1 1 0%;
+        padding: 0px 5px;
+        h2{
+          color: @theme-color;
+        }
+        span{
+          font-size: 13px;
+        }
+        button{
+          background: @theme-color;
+        }
+        .customBtn{
+          font-size: 14px;
+          color: white;
+          border: none;
+          padding: 8px;
+          margin: 15px 7px 15px;
+        }
+        .ReactTable{
+          font-size: 11px;
+          margin-bottom: 100px;
+          .-header{
+            background: @theme-color;
+            color: white;
+            height: 45px;
+            padding: 10px 0px;
+            font-size: 14px;
+          }
+          .pagination-bottom{
+            button{
+              color: @color-link;
+              &:hover {
+                color: white;
+              }
+            }
+          }
+        }
+        .react-bs-table{
+          font-size: 11px;
+          .table-hover{
+            width: 100%;
+          }
+          .table{
+            width: 100%;
+          }
+          thead{
+            background: @theme-color;
+            color: white;
+          }
+          tbody{
+            color: #000000;
+            font-family: sans-serif;
+          }
+          th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+          }
+
+        }
+        .container-patient-search{
+          margin-top: 10px;
+          .react-bs-table-container{
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+  footer{
+    background-color: @theme-color;
+    color: #fff;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
