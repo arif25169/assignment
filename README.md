@@ -28,7 +28,7 @@ bundle.js  2.86 MB       0  [emitted]  bundle
 webpack: bundle is now VALID.
 ...
 ```
-Open an browser and navigate to localhost:8080
+Open browser and navigate to localhost:8080
 
 Resources
 =
