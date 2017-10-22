@@ -6,7 +6,7 @@ const m = moment;
 class PatientList extends React.Component {
     constructor(props) {
         super(props);
-        this.patientsMock = [{ id: "1", name: "Nicolas Abarca", email: "nicolas.abarca@fligoo.com", birthday: "02/08/1989", phone: "+543513888665", medicine: "No Assigned" }]
+        this.patientsMock = [{ id: "1", name: "Nicolas Abarca", email: "nicoabarca02@gmail.com", birthday: "02/08/1989", phone: "+543513888665", medicine: "No Assigned" }]
         this.patients = sessionStorage.patients !== undefined ? JSON.parse(sessionStorage.patients) : this.patientsMock;
         this.state = {
             data : this.patients
