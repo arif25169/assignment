@@ -2,7 +2,7 @@
 Assignment
 =
 
-My first Webapp with React
+My first Webapp with ReactJS
 
 Installation
 =
